@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://wallpapercave.com/wp/wp5352150.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+
+.box {
+    height: 50vh;
+    width: 55vh;
+    background-color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+    
+
+    border-radius: 40px;
+    border: 2px solid rgb(20, 8, 106);
+}
+
+.task_input {
+    color: white;
+    background-color:midnightblue;
+    opacity: 1;
+
+    position: relative;
+    top: 0px;
+    left: 10px;
+
+    box-sizing: border-box;
+    padding: 12px 20px;
+    height: 8vh;
+    width: 225px;
+
+    border-radius: 60px;
+    border: 2px solid red;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-color: midnightblue;
+}
+.task_input:focus {
+    color: rgb(0, 140, 255);
+    border-width: 3px;
+    border-color:aqua;
+}
+.submitTask {
+    color: white;
+    background-color: rgb(36, 95, 163);
+    opacity: 1;
+
+    position: relative;
+    top: 0px;
+    left:4px;
+
+    height: 8vh;
+    width: 80px;
+    border: 2px solid red;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px; 
+    
+}
+.submitTask:hover{
+    background-color:darkred;
+    border-width: 3px;
+    border: 2px solid aqua;
+}
+
